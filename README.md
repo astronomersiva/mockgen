@@ -6,6 +6,10 @@ Generates device mockups for a given URL using Puppeteer and Facebook Devices.
 
 * Run `npm install -g @astronomersiva/mockgen`.
 * Download and extract [Facebook Devices](https://facebook.design/devices).
+* You will also need `cairo` installed
+* For macOS, run `brew install pkg-config cairo libpng jpeg giflib`.
+* For Ubuntu, run `sudo apt-get install libcairo2-dev libjpeg-dev libpango1.0-dev libgif-dev build-essential g++`.
+* For Windows, follow these [instructions](https://github.com/Automattic/node-canvas/wiki/Installation---Windows).
 
 ### Usage
 
@@ -32,7 +36,7 @@ Yes, I will be adding more devices gradually. The reason for this is that the ba
 
 **Will landscape mode be supported?**
 
-Yes, once support rotating images is available in [merge-images](https://github.com/lukechilds/merge-images). I have started working on it.
+Yes, once support for rotating images is available in [merge-images](https://github.com/lukechilds/merge-images). I have started working on it.
 
 **Why is Facebook Devices not bundled with mockgen?**
 
