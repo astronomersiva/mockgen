@@ -20,15 +20,15 @@ module.exports = {
     offsetY: 350
   },
   'Samsung Galaxy S8': {
-    viewport:{width: 360, height: 740, deviceScaleFactor: 4},
+    viewport: {width: 360, height: 740, deviceScaleFactor: 4, isMobile: true},
     mockup: 'Facebook Devices/Phones/Samsung Galaxy S8/Device With Shadow',
     offsetX: 100,
     offsetY: 320
   },
   'Google Pixel 2': {
-    viewport:{width: 411, height: 731, deviceScaleFactor: 2.6},
+    viewport: {width: 411, height: 731, deviceScaleFactor: 2.6, isMobile: true},
     mockup: 'Facebook Devices/Phones/Google Pixel 2/Device With Shadow',
     offsetX: 125,
     offsetY: 370
-  },
+  }
 };

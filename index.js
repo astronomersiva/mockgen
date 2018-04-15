@@ -31,7 +31,7 @@ const {
       'Path to folder that contains Facebook Devices',
       process.cwd()
     )
-    .option('device', 'The device for which you want a mockup', 'iPhoneX')
+    .option('device', 'The device for which you want a mockup')
     .option('shadows', 'Should the mockup have shadows?', true);
   // .option('landscape', 'Landscape mode', false); image rotation needed in merge-images
 
