@@ -4,7 +4,7 @@ Generates device mockups for a given URL using Puppeteer and Facebook Devices.
 
 ### Install
 
-* Run `npm install -g mockgen`.
+* Run `npm install -g @astronomersiva/mockgen`.
 * Download and extract [Facebook Devices](https://facebook.design/devices).
 
 ### Usage

@@ -1,5 +1,5 @@
 {
-  "name": "mockgen",
+  "name": "@astronomersiva/mockgen",
   "version": "0.0.1",
   "description": "Generates device mockups for a given URL using Puppeteer and Facebook Devices",
   "keywords": [
