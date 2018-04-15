@@ -1,4 +1,4 @@
-# mockgen [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
+# mockgen ![Travis Build Status](https://travis-ci.org/astronomersiva/mockgen.svg?branch=master) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
 
 Generates device mockups for a given URL using Puppeteer and Facebook Devices.
 
